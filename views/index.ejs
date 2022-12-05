@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ahmed Raza</h1>
+    <h1>
+        <%= name %>
+        <!-- Declrae a Variable  -->
+        <% var  i = 1000; %>
+        <!-- Comment  in Ejs  this comment not display in browser code -->
+        <%# var  i = 1000; %>
+
+        <h1>
+
+            <%= i %>
+        </h1>
+
+        
+    </h1>
+
+
+<!-- If in Ejs  -->
+
+<!-- <% if(name === "Ahmed Raa") { %>
+<h1>If Working</h1>
+<% } %> -->
+
+
+    <!-- If Else  -->
+    <!-- <% if (name === "Ahmed Raza") { %>
+        <h1>FILE EXITS!! <%= name %>  </h1>
+         <% }
+else { %>
+    <h1>Value not Found !!!</h1>
+    <% }   %> -->
+
+<!-- if else if  -->
+
+    <!-- <% if (name === "Ahmed Raza") { %>
+        <h1><%= name %>  </h1>
+         <% }
+         else if (name === 'saad')  { %>
+            <h1><%= name %></h1>
+            <% }         
+else { %>
+    <h1>Name not Found !!!</h1>
+    <% }   %> -->
+
+
+    <!-- For Loop -->
+<!-- 
+<% for (i = 0 ; i < 4 ; i++){ %>
+    <h1> <%= i %>   <%= name %></h1>
+<% } %> -->
+
+<!-- For in loop  -->
+<!-- <% for(var key in Brother ) {  %> 
+<h1> <%= Brother[key] %>  </h1>
+<% } %> -->
+
+
+<!-- For of Loop  -->
+
+<!-- <%   for(var key of Brother) {   %>
+<h1> <%= Brother[key] %>  </h1>
+<% } %> -->
+
+
+<!-- While Looop  -->
+
+<!-- <% var  i = 0; %>  
+
+<% while(i<=4) {%>
+<% i++%>
+ <h1> <%= i %>  </h1> 
+<% } %> -->
+
+
+<!-- for Each loop -->
+
+<!-- <%  Brother.forEach((Value)=>{%>   <%= Value %>     <%})  %>   -->
+
+</body>
+</html>
